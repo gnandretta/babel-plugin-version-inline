@@ -1,0 +1,27 @@
+{
+  "name": "babel-plugin-version-inline",
+  "version": "0.0.0",
+  "description": "Babel plugin for turning __VERSION__ into a package version string",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel-plugin build",
+    "push": "babel-plugin publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnandretta/babel-plugin-version-inline.git"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "author": "Gabriel Andretta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnandretta/babel-plugin-version-inline/issues"
+  },
+  "homepage": "https://github.com/gnandretta/babel-plugin-version-inline#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
