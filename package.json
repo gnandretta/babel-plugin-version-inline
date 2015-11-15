@@ -4,8 +4,7 @@
   "description": "Babel plugin for turning __VERSION__ into a package version string",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel-plugin build",
-    "push": "babel-plugin publish",
+    "build": "babel src --out-dir lib --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/gnandretta/babel-plugin-version-inline#readme",
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel-cli": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18"
   }
 }
